@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" 
+      type="text/css" 
+      href="CoreGaming.css">
+
+<head>
+	<title>CORE GAMING! Home of TEMHE</title>
+	<link rel="shortcut icon" href="shaq.ico">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			function initialize() {
+				var lat = 42.78217;
+				var lng = -71.23010;
+				var mapCanvas = document.getElementById('map');
+				var mapOptions = {
+						center: new google.maps.LatLng(lat, lng),
+						zoom: 16,
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+				}			
+				var map = new google.maps.Map(mapCanvas, mapOptions);
+				var marker = new google.maps.Marker({
+					position: {lat: lat, lng: lng},
+					map: map,
+					label: '$',
+					title: 'Core Gaming'});
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+</head>
+
+<body>
+	<div id="Header">
+	<br>
+		<img class="Logo" src="Logo.png">
+		<br>
+	</div>
+	<div id="Pages">
+		<marquee>We have Shaq!&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp...hostage!</marquee>
+	</div>
+	<div id="PageBody">
+		<div id="Content">
+			<div id="Slogan">
+				We've got more games than you could shake a stick at!
+			</div>
+			<br>
+			<div id="Description">
+				Core Gaming is a retro video game store located in Salem, NH.
+				<br><br>
+				We have thousands and thousands (and thousands) of used video games, ranging from Atari all the way through the current generation (Xbox One, PS4).
+				<br><br>
+				We will also buy and trade your used (or new) stuff!<br><br>
+				Check out our FAQ page (coming soon) if you have any questions, or give us a call!
+				<br><br>
+				While we continue building the website, check out our
+				<br> <a href="http://www.facebook.com/coregamingnh">Facebook</a> page!
+				<br> And our <a href="http://www.instagram.com/coregaming/">Instagram!</a>
+				<br><br>
+				Seacrest out! *drops mic*
+				<br><br>
+			</div>
+			<div id="News">
+				
+			</div>
+		</div>
+		<div id="Info">
+			<div id="Hours">		
+				<h2>Call Us!</h2>
+				<div id="PhoneNumber">
+				(603)458-5791
+				</div>
+				<h2>Store Hours:</h2>	
+				Monday:		Closed<br>
+				Tuesday:		12-7<br>
+				Wednesday:	12-7<br>
+				Thursday: 	12-7<br>
+				Friday: 		12-7<br>
+				Saturday: 	11-7<br>
+				Sunday: 		12-5<br>
+			</div>
+			<div id="ShaqHead">
+				<marquee>
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<img src="shaq.ico" />
+				</marquee>
+			</div>	
+			<h2>Location:</h2>
+			<p>
+				<a href="https://www.google.com/maps?q=5+north+broadway+salem+nh">
+					5 North Broadway,<br>
+					Salem, NH 03079<br>
+				</a>
+				<div id="map"></div>
+			</p>
+			
+			<h2>Contact Info:</h2>
+			<p>
+				Phone: (603)458-5791 <br>
+				Email: <a href= "mailto:Matt.CoreGaming@Yahoo.com?Subject=Nice%20Store&#44%20Bro">Matt.CoreGaming@Yahoo.com</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

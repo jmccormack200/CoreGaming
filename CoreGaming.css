@@ -1,0 +1,63 @@
+head{
+	icon: url("Logo.png");
+}
+#Header{
+	position: relative;
+	background-image: url("marioBackground.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#Pages{
+	background-color: #ccffcc; 
+}
+body{
+	background-color:white;
+	font-family: Garamond;
+}
+img.Logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Hours{
+	background-color: white;
+	background-repeat: no-repeat;
+}
+#PhoneNumber{
+	font-size: 50px;
+}
+#map {
+    width: 400px;
+    height: 300px;
+    background-color: #CCC;
+  }
+#PageBody{
+}
+#Pages{
+	
+	font-family: Garamond;
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+}
+#Slogan{	
+	font-family: Garamond;
+	font-size:50px;
+	font-weight: bold;
+	text-align: center;
+}
+#Content{
+	float:left;
+	margin:0;
+	width:65%;
+	font-family: Garamond;
+	font-size:30px;
+	text-align:center;
+}
+#Info{
+	float:left;
+	margin:10px;
+	width:33%;
+	font-size: 20px;
+}
