@@ -3,17 +3,15 @@ body, html
 	background-color:#ededed !important;
 }
 
-
 .intro
 {
 	text-align: center;
 	padding-top: 5%;
 	padding-bottom: 13%;
 	margin-bottom: 50px;
-	background-image: url('../background.jpg');
+	background-image: url("../img/marioBackground.png");
+	background-position: center;
 	background-repeat: no-repeat;
-	background-position: center 10%;
-
 }
 
 .intro h1
@@ -59,4 +57,5 @@ body, html
 {
 	text-align: center;
 }
+
 
